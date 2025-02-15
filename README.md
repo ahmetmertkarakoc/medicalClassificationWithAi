@@ -104,5 +104,6 @@ Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) altında sunulabili
 
 
 **Teşekkürler!**  
+
 Herhangi bir sorunda veya ek bir istekte bulunmak istersen bize ulaşabilirsin.
 
