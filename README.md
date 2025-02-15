@@ -7,6 +7,8 @@ Bu proje, tek bir kanser türünü (örneğin Kolon Kanseri) tespit etmek için 
 
 ## Proje Dizini
 
+Aşağıda, **örnek** bir proje dizini gösterilmektedir. Senin ekran görüntünde benzer bir yapı olduğunu görüyorum:
+
 ```
 .
 ├── .cursor/
@@ -34,7 +36,7 @@ Bu proje, tek bir kanser türünü (örneğin Kolon Kanseri) tespit etmek için 
 - `test/`, `train/`, `validation/`: İsteğe bağlı olarak ek test ve doğrulama verileri için alt klasörler.
 - `models/`: Eğitilmiş model (`.pth`) dosyalarının saklanacağı klasör.
 - `notebooks/`: Opsiyonel olarak Jupyter Notebook çalışmalarının konulabileceği klasör.
-- `src/`: Proje ana kodları (veri yükleme, model tanımı, eğitim/test betikleri vb.).
+- `src/`: Proje ana kodları (data yükleme, model tanımı, eğitim/test betikleri vb.).
 - `ui/`: Qt veya başka bir arayüz dosyalarının tutulacağı klasör (opsiyonel).
 - `.gitignore`: Git sürüm kontrolü için gereksiz dosyaları dışlayan ayar dosyası.
 - `README.md`: Projeye genel bakış dosyası (bu dosya).
@@ -45,6 +47,8 @@ Bu proje, tek bir kanser türünü (örneğin Kolon Kanseri) tespit etmek için 
 ## Kurulum ve Kullanım
 
 1. **Proje Yapısını Oluşturma**
+
+Eğer proje klasörlerini henüz otomatik oluşturmak istersen, `create_project_structure.py` (örnek bir betik) kullanabilirsin:
 
 ```bash
 python create_project_structure.py
@@ -74,9 +78,9 @@ pip install tqdm matplotlib
 python train.py \
   --data_dir data \
   --model_path models/cancer_detection_model.pth \
-  --epochs 100 \
+  --epochs 10 \
   --batch_size 32 \
-  --learning_rate 0.0001
+  --learning_rate 0.001
 ```
 
 - **--data_dir**: Eğitim verilerinin dizini (içinde `cancer` ve `normal` klasörleri bulunmalı).
@@ -137,12 +141,6 @@ training_loss.png
 - Sorun bildirmek veya yeni özellik eklemek için **issue** açabilirsin.
 - **Pull Request** göndererek projeye katkıda bulunabilirsin.
 - Kod incelemeleri, dokümantasyon güncellemeleri ve hata düzeltmeleri değerlidir.
-
----
-
-## Lisans
-
-Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) altında sunulabilir. Dilersen lisansı değiştirebilir ya da kendi lisansını ekleyebilirsin.
 
 ---
 
