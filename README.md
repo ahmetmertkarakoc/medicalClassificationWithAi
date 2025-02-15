@@ -102,8 +102,7 @@ Eğitim tamamlandığında `cancer_detection_model.pth` dosyası `models/` klas�
 
 Bu proje [MIT Lisansı](https://opensource.org/licenses/MIT) altında sunulabilir. Dilersen lisansı değiştirebilir ya da kendi lisansını ekleyebilirsin.
 
----
 
 **Teşekkürler!**  
 Herhangi bir sorunda veya ek bir istekte bulunmak istersen bize ulaşabilirsin.
-```
+
