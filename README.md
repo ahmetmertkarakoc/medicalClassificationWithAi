@@ -1,9 +1,8 @@
-```
+
 # Medical Image Classification with Deep Learning
-```
+
 Bu proje, tek bir kanser türünü (örneğin Kolon Kanseri) tespit etmek için bir derin öğrenme modeli geliştirmeyi amaçlar. Model, yüklenen tıbbi görüntüden kanser olup olmadığına dair bir olasılık değeri üretir (örneğin `%80 kanser` gibi).
-```
-```
+
 ## Proje Dizini
 
 Aşağıda, **örnek** bir proje dizini gösterilmektedir (senin ekran görüntünde benzer bir yapı olduğu varsayılmıştır):
